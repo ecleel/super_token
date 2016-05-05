@@ -1,14 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'has_secure_token/version'
+require 'super_token/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "super_token"
-  spec.version       = HasSecureToken::VERSION
+  spec.version       = SuperToken::VERSION
   spec.authors       = ["Roberto Miranda Altamar", "Abdulaziz Alshetwi"]
   spec.email         = ["rjmaltamar@gmail.com", "e@ecleel.com"]
-  spec.summary       = %q{Fork of HasSecureToken with more options}
+  spec.summary       = %q{HasSecureToken with more options}
   spec.description   = %q{SecureToken provides you an easily way to geneatre uniques random tokens for any model in ruby on rails. **SecureRandom::base58** is used to generate the 24-character unique token, so collisions are highly unlikely.}
   spec.homepage      = "https://github.com/ecleel/super_token"
   spec.license       = "MIT"

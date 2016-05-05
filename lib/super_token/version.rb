@@ -1,3 +1,3 @@
-module HasSecureToken
+module SuperToken
   VERSION = "1.0.0"
 end
