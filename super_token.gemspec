@@ -6,10 +6,10 @@ require 'super_token/version'
 Gem::Specification.new do |spec|
   spec.name          = "super_token"
   spec.version       = SuperToken::VERSION
-  spec.authors       = ["Roberto Miranda Altamar", "Abdulaziz Alshetwi"]
-  spec.email         = ["rjmaltamar@gmail.com", "e@ecleel.com"]
+  spec.authors       = ["Abdulaziz Alshetwi", "Roberto Miranda Altamar"]
+  spec.email         = ["e@ecleel.com", "rjmaltamar@gmail.com"]
   spec.summary       = %q{HasSecureToken with more options}
-  spec.description   = %q{SecureToken provides you an easily way to geneatre uniques random tokens for any model in ruby on rails. **SecureRandom::base58** is used to generate the 24-character unique token, so collisions are highly unlikely.}
+  spec.description   = %q{SuperToken provides you an easily way to geneatre uniques random tokens for any model in ruby on rails and gives you ability to add prefix of token and change length.}
   spec.homepage      = "https://github.com/ecleel/super_token"
   spec.license       = "MIT"
 
