@@ -76,12 +76,12 @@ $ rake test
 Should return
 
 ```shell
-5 runs, 9 assertions, 0 failures, 0 errors, 0 skips
+9 runs, 17 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## Contributing
 
-1. Fork it ( https://github.com/robertomiranda/has_secure_token/fork )
+1. Fork it ( https://github.com/ecleel/super_token/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
